@@ -5,17 +5,17 @@ import { Card, CardContent } from "@/components/ui/card"
 const features = [
   {
     icon: MessageSquare,
-    title: "Smart Lead Intake",
+    title: "AI Powered Call Handling",
     description: "Automatically qualify and route new leads with AI assistance"
   },
   {
     icon: Calendar,
-    title: "Job Tracking",
+    title: "AI Technical On-The-Go Assistant",
     description: "Keep all your projects organized and on schedule"
   },
   {
     icon: CheckCircle2,
-    title: "Task Management",
+    title: "AI Enabled CRM Management",
     description: "Streamline your workflow with intelligent task prioritization"
   },
   {

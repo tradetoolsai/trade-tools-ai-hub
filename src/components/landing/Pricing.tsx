@@ -6,7 +6,7 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 const plans = [
   {
     name: "Starter",
-    price: "$49",
+    price: "$499",
     description: "Perfect for small contractors",
     features: [
       "AI Lead Qualification",
@@ -17,7 +17,7 @@ const plans = [
   },
   {
     name: "Professional",
-    price: "$99",
+    price: "$999",
     description: "For growing businesses",
     features: [
       "Everything in Starter",

@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Zap } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 export default function Hero() {
   return (
@@ -8,13 +8,14 @@ export default function Hero() {
       <div className="container px-4 mx-auto">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            {/* Logo placeholder */}
-            <div className="w-16 h-16 mb-6 mx-auto bg-primary/10 rounded-xl flex items-center justify-center">
-              <Zap className="w-8 h-8 text-primary" />
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="TradeTools Logo" 
+              className="w-16 h-16 mb-6 mx-auto object-contain"
+            />
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient">
             Smarter tools for the trades.
           </h1>
           
