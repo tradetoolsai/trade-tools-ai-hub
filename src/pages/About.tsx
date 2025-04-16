@@ -6,15 +6,15 @@ export default function About() {
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       <div className="container mx-auto py-16 px-4">
-        <h1 className="text-4xl font-bold mb-8">About TradeTools</h1>
+        <h1 className="text-4xl font-bold mb-8">About TradeTools.AI</h1>
         <div className="prose max-w-none">
           <p className="text-lg mb-6">
-            TradeTools is a revolutionary platform designed specifically for the trades industry, 
+            TradeTools.AI is a revolutionary platform designed specifically for the trades industry, 
             combining cutting-edge AI technology with practical tools that make daily operations 
             smoother and more efficient.
           </p>
           <p className="text-lg mb-6">
-            Founded in 2023, our mission is to empower contractors, technicians, and trade 
+            Founded in 2025, our mission is to empower contractors, technicians, and trade 
             professionals with technology that understands their unique challenges and workflows.
           </p>
           <p className="text-lg mb-6">
