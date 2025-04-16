@@ -1,22 +1,30 @@
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Circuit } from "lucide-react"
 
 export default function Hero() {
   return (
-    <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-background to-background/50">
-      <div className="container px-4 mx-auto">
+    <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-background to-background/50 relative overflow-hidden">
+      {/* Tech Graphics */}
+      <div className="absolute inset-0 opacity-10">
+        <Circuit className="w-full h-full text-primary" />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/80 to-background" />
+      
+      <div className="container px-4 mx-auto relative">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <img 
               src="/logo.png" 
               alt="TradeTools Logo" 
-              className="w-16 h-16 mb-6 mx-auto object-contain"
+              className="w-16 h-16 mb-6 mx-auto object-contain hover:scale-105 transition-transform"
             />
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient">
-            Smarter tools for the trades.
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
+            <span className="bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent animate-gradient">
+              Smarter tools for the trades.
+            </span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
