@@ -1,8 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CircuitBoard } from "lucide-react";
 import { Link } from "react-router-dom";
-
 export default function Hero() {
   return <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-background to-background/50 relative overflow-hidden">
       {/* Tech Graphics */}
@@ -14,7 +12,7 @@ export default function Hero() {
       <div className="container px-4 mx-auto relative">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <img alt="TradeTools Logo" className="w-16 h-16 mb-6 mx-auto object-contain hover:scale-105 transition-transform" src="/lovable-uploads/02dff0ff-51ba-424a-a7dc-b196577fab72.png" />
+            <img alt="TradeTools Logo" className="w-16 h-16 mb-6 mx-auto hover:scale-105 transition-transform object-cover" src="/lovable-uploads/9b1187a9-7431-4f21-b712-d9f23edada59.png" />
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
