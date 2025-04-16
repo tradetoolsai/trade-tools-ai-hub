@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="container px-4 mx-auto relative">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <img alt="TradeTools Logo" className="w-16 h-16 mb-6 mx-auto hover:scale-105 transition-transform object-cover" src="/lovable-uploads/9b1187a9-7431-4f21-b712-d9f23edada59.png" />
+            <img alt="TradeTools Logo" src="/lovable-uploads/9b1187a9-7431-4f21-b712-d9f23edada59.png" className="w-16 h-16 mb-6 mx-auto hover:scale-105 transition-transform object-cover" />
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
