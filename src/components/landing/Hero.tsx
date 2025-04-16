@@ -1,10 +1,7 @@
-
-import { Button } from "@/components/ui/button"
-import { ArrowRight, CircuitBoard } from "lucide-react"
-
+import { Button } from "@/components/ui/button";
+import { ArrowRight, CircuitBoard } from "lucide-react";
 export default function Hero() {
-  return (
-    <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-background to-background/50 relative overflow-hidden">
+  return <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-background to-background/50 relative overflow-hidden">
       {/* Tech Graphics */}
       <div className="absolute inset-0 opacity-10">
         <CircuitBoard className="w-full h-full text-primary" />
@@ -14,11 +11,7 @@ export default function Hero() {
       <div className="container px-4 mx-auto relative">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <img 
-              src="/logo.png" 
-              alt="TradeTools Logo" 
-              className="w-16 h-16 mb-6 mx-auto object-contain hover:scale-105 transition-transform"
-            />
+            <img alt="TradeTools Logo" className="w-16 h-16 mb-6 mx-auto object-contain hover:scale-105 transition-transform" src="/lovable-uploads/02dff0ff-51ba-424a-a7dc-b196577fab72.png" />
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
@@ -42,6 +35,5 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </section>
-  )
+    </section>;
 }
