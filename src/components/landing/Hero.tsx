@@ -1,13 +1,13 @@
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Circuit } from "lucide-react"
+import { ArrowRight, CircuitBoard } from "lucide-react"
 
 export default function Hero() {
   return (
     <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-background to-background/50 relative overflow-hidden">
       {/* Tech Graphics */}
       <div className="absolute inset-0 opacity-10">
-        <Circuit className="w-full h-full text-primary" />
+        <CircuitBoard className="w-full h-full text-primary" />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/80 to-background" />
       
