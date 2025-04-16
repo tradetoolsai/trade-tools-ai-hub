@@ -1,5 +1,8 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CircuitBoard } from "lucide-react";
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return <section className="min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-background to-background/50 relative overflow-hidden">
       {/* Tech Graphics */}
@@ -25,12 +28,16 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="group">
-              Request Demo
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            <Button size="lg" className="group" asChild>
+              <Link to="/contact">
+                Request Demo
+                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </Button>
-            <Button size="lg" variant="secondary">
-              View Pricing
+            <Button size="lg" variant="secondary" asChild>
+              <a href="#pricing">
+                View Pricing
+              </a>
             </Button>
           </div>
         </div>
